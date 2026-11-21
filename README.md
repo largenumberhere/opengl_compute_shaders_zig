@@ -3,7 +3,8 @@ An example of using compute shader's in the zig programming language. Specifical
 
 
 ## Run it
-There is no standard build.zig file for this one. You will need to use the compile script. This repo ships with a compiler for zig `1.15.2`. 
+There is no standard build.zig file for this one. You will need to use the compile script. 
+0. Download version `0.15.2` of zig compiler and place it and `lib`, `doc` in this repo
 1. Bootstrap the build script once: `./zig build-exe compile.zig`
 2. Use the generated binary`./compile` (or `start compile.exe` on windows)
 
